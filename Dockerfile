@@ -1,4 +1,4 @@
 FROM rstudio/plumber
 COPY api.R /
-EXPOSE 80/tcp
+EXPOSE 8000/tcp
 CMD ["/api.R"]
