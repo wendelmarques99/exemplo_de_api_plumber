@@ -8,5 +8,5 @@ library(plumber)
 #* @get /media
 
 function(n1, n2, n3){
-  paste0("A média dos valores é ", round(mean(c(as.numeric(n1), as.numeric(n2), as.numeric(n3)), 2)), "!")
+  paste0("A média dos valores é ", round(mean(c(as.numeric(n1), as.numeric(n2), as.numeric(n3)), 2)), "!!!")
 }
